@@ -1,9 +1,9 @@
 import NotificationButton from "./Components/notification-button"
-
+import Header from "./Components/Header"
 function App() {
   return (
     <>
-      <h1>Olá Mundo</h1>
+      <Header />
       <NotificationButton />
     </>
   )
