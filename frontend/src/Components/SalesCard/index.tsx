@@ -72,7 +72,7 @@ function SalesCard() {
                                     <td>R$ {sale.amout.toFixed(2)}</td>
                                     <td>
                                         <div className="DSMeta-redButton-container">
-                                            <NotificationButton />
+                                            <NotificationButton saleId={sale.id} />
                                         </div>
                                     </td>
                                 </tr>
